@@ -30,7 +30,7 @@ const buttonVariants = cva(
 const DownloadButton = ({ className, variant, size, ...props }) => {
   return (
     <a
-      href="/files/cv.doc" // Path to your CV file
+      href="/files/cv.pdf" // Path to your CV file
       download
       className={cn(buttonVariants({ variant, size, className }))}
       {...props}
